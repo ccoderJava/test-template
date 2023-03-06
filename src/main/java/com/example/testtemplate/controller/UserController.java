@@ -7,15 +7,11 @@ import com.example.testtemplate.response.CommonResponse;
 import com.example.testtemplate.response.UserLoginResponse;
 import com.example.testtemplate.service.processor.CreateUserProcessor;
 import com.example.testtemplate.service.processor.UserLoginProcessor;
-import com.example.testtemplate.template.AbstractProcessTemplate;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import javax.annotation.PostConstruct;
 
 /**
  * @author: congcong
